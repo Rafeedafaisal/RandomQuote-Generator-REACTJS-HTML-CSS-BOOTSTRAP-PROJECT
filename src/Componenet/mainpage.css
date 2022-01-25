@@ -1,0 +1,55 @@
+.container-fluid{
+    background-image: url("https://c2.staticflickr.com/8/7281/16768353957_c9eeece662_z.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:655px;
+}
+#r1{
+    height: 100px;
+    /* background-color: blue; */
+}
+.col-sm-6{
+    height: 280px;
+    /* background-color: blueviolet; */
+}
+.btn {
+    position: relative;
+    background-color: darkolivegreen;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn:after {
+    content: "";
+    background: white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .btn:hover{
+      background-color: olivedrab;
+      color: white;
+      font-weight: bolder;
+  }
